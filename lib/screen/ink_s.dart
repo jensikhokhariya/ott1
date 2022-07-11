@@ -34,6 +34,7 @@ class _Link_SState extends State<Link_S> {
             ),
             Center(
               child: Visibility(
+                visible: isvisible,
                 child: CircularProgressIndicator(),
               ),
             ),
